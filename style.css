@@ -142,7 +142,10 @@ table {
 
 body {
   background-color: #e5e6e1;
-  z-index: -1;
+  background-image: url(./drawing.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
   font-family: "Roboto";
 }
 
@@ -204,10 +207,4 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px 2em;
-}
-
-.weird-form {
-  background-image: url(/drawing.png);
-  position: relative;
-  z-index: 1;
 }
