@@ -157,6 +157,10 @@ body {
   position: relative;
 }
 
+.title-section {
+  margin-bottom: 32px;
+}
+
 .modal-big-title {
   color: black;
   font-size: 24px;
@@ -165,7 +169,7 @@ body {
 .small-title {
   font-size: 16px;
   color: #515151;
-  line-height: 2.5em;
+  margin-top: 8px;
 }
 
 .input-label {
@@ -176,26 +180,24 @@ body {
 }
 
 .button {
+  border: none;
   background-color: #546860;
   color: white;
   font-size: 14px;
   border-radius: 4px;
   box-shadow: 0px 1px 2px rgba(4, 2, 34, 0.13);
   padding: 15px 11px;
-  border-width: 0;
-  position: absolute;
-  bottom: 32px;
-  right: 32px;
   font-family: "Roboto";
   line-height: 16px;
 }
 
 .blank-spaces {
-  border-radius: 5px;
-  border-width: 1px;
-  border-color: #ced3c6;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px #ced3c6 solid;
   box-shadow: 0px 1px 2px rgba(4, 2, 34, 0.08);
-  height: 32px;
+  padding: 8px;
 }
 
 .modal {
@@ -213,5 +215,12 @@ body {
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 16px;
+  margin-bottom: 16px;
+}
+
+.form-bottom-actions {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-end;
 }
